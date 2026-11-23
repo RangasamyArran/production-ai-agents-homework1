@@ -1,0 +1,17 @@
+[project]
+name = "production-ai-agents-for-media-generation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "RangasamyArran", email = "21955965+RangasamyArran@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+production-ai-agents-for-media-generation = "production_ai_agents_for_media_generation:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"

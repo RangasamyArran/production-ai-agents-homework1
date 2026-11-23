@@ -1,0 +1,52 @@
+{
+  "idea": "A 10-page children's bedtime storybook about Pip, a small otter lighthouse keeper",
+  "model": "Efficient-Large-Model/Sana_1600M_1024px_diffusers",
+  "modality": "image",
+  "how": "Endpoint",
+  "gpu": "L40S",
+  "size": "512x512",
+  "steps": 20,
+  "guidance_scale": 4.5,
+  "seed": 7,
+  "started_utc": "2026-11-23T15:39:28.564572+00:00",
+  "startup_s": 130.3,
+  "load_s": 55.6,
+  "create_to_ready_s": 0.0,
+  "latency_s": {
+    "page-01": 6.782,
+    "page-02": 3.038,
+    "page-03": 2.931,
+    "page-04": 2.962,
+    "page-05": 2.755,
+    "page-06": 2.995,
+    "page-07": 2.907,
+    "page-08": 2.957,
+    "page-09": 2.951,
+    "page-10": 2.963
+  },
+  "prompts": {
+    "page-01": "Pip, a small round sea otter with chestnut-brown fur, a cream belly, a yellow knitted beanie and a tiny blue scarf. Pip waking up in a cosy bed at the top of a red-and-white lighthouse at sunrise. soft watercolor children's book illustration, warm gentle light, simple shapes, no text",
+    "page-02": "Pip, a small round sea otter with chestnut-brown fur, a cream belly, a yellow knitted beanie and a tiny blue scarf. Pip polishing the giant glass lamp of the lighthouse with a cloth. soft watercolor children's book illustration, warm gentle light, simple shapes, no text",
+    "page-03": "Pip, a small round sea otter with chestnut-brown fur, a cream belly, a yellow knitted beanie and a tiny blue scarf. Pip waving to a small fishing boat from the rocky shore. soft watercolor children's book illustration, warm gentle light, simple shapes, no text",
+    "page-04": "Pip, a small round sea otter with chestnut-brown fur, a cream belly, a yellow knitted beanie and a tiny blue scarf. Pip collecting shiny shells on a sandy beach with seagulls nearby. soft watercolor children's book illustration, warm gentle light, simple shapes, no text",
+    "page-05": "Pip, a small round sea otter with chestnut-brown fur, a cream belly, a yellow knitted beanie and a tiny blue scarf. Pip sharing a picnic of fish sandwiches with a friendly puffin. soft watercolor children's book illustration, warm gentle light, simple shapes, no text",
+    "page-06": "Pip, a small round sea otter with chestnut-brown fur, a cream belly, a yellow knitted beanie and a tiny blue scarf. Pip watching dark storm clouds roll in over a choppy sea. soft watercolor children's book illustration, warm gentle light, simple shapes, no text",
+    "page-07": "Pip, a small round sea otter with chestnut-brown fur, a cream belly, a yellow knitted beanie and a tiny blue scarf. Pip climbing the spiral lighthouse stairs holding a lantern during the storm. soft watercolor children's book illustration, warm gentle light, simple shapes, no text",
+    "page-08": "Pip, a small round sea otter with chestnut-brown fur, a cream belly, a yellow knitted beanie and a tiny blue scarf. Pip lighting the great lamp, its beam cutting through rain and waves. soft watercolor children's book illustration, warm gentle light, simple shapes, no text",
+    "page-09": "Pip, a small round sea otter with chestnut-brown fur, a cream belly, a yellow knitted beanie and a tiny blue scarf. the little fishing boat arriving safely in the harbour guided by the beam, Pip cheering. soft watercolor children's book illustration, warm gentle light, simple shapes, no text",
+    "page-10": "Pip, a small round sea otter with chestnut-brown fur, a cream belly, a yellow knitted beanie and a tiny blue scarf. Pip asleep under the stars on the lighthouse balcony, calm sea, crescent moon. soft watercolor children's book illustration, warm gentle light, simple shapes, no text"
+  },
+  "cost": {
+    "price_per_hour_usd": 0.75,
+    "fixed_time_s": 185.9,
+    "median_generation_s": 2.96,
+    "fixed_cost_F_usd": 0.0387,
+    "cost_per_asset_c_usd": 0.000617,
+    "cost_per_asset_at_N": {
+      "1": 0.039346,
+      "10": 0.004489,
+      "1000": 0.000655
+    },
+    "actual_run_cost_usd_10_assets": 0.0457
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "idea": "A 10-card visual explainer series of Smart Money Concepts (SMC) for options traders",
+  "model": "Efficient-Large-Model/Sana_1600M_1024px_diffusers",
+  "modality": "image",
+  "how": "Endpoint",
+  "gpu": "L40S",
+  "size": "512x512",
+  "steps": 20,
+  "guidance_scale": 4.5,
+  "seed": 7,
+  "started_utc": "2026-11-23T15:47:54.089994+00:00",
+  "startup_s": 123.8,
+  "load_s": 56.3,
+  "create_to_ready_s": 7.9,
+  "latency_s": {
+    "card-01": 6.709,
+    "card-02": 2.74,
+    "card-03": 2.734,
+    "card-04": 2.799,
+    "card-05": 2.774,
+    "card-06": 2.769,
+    "card-07": 2.775,
+    "card-08": 2.814,
+    "card-09": 2.666,
+    "card-10": 2.749
+  },
+  "prompts": {
+    "card-01": "a clean candlestick price chart on a dark navy trading-terminal background, green bullish candles and red bearish candles, thin grid lines. Order Block: the last red candle before a strong bullish move highlighted by a glowing teal rectangle zone, price later returning to tap it. minimal flat vector infographic illustration, high contrast, glowing neon accents, educational trading poster, no text, no letters, no numbers, no logos",
+    "card-02": "a clean candlestick price chart on a dark navy trading-terminal background, green bullish candles and red bearish candles, thin grid lines. Fair Value Gap: three candles with an empty imbalance gap between the first and third candle shaded in translucent yellow. minimal flat vector infographic illustration, high contrast, glowing neon accents, educational trading poster, no text, no letters, no numbers, no logos",
+    "card-03": "a clean candlestick price chart on a dark navy trading-terminal background, green bullish candles and red bearish candles, thin grid lines. Liquidity Sweep: price spiking just below a row of equal lows marked by small glowing dots, then reversing sharply upward. minimal flat vector infographic illustration, high contrast, glowing neon accents, educational trading poster, no text, no letters, no numbers, no logos",
+    "card-04": "a clean candlestick price chart on a dark navy trading-terminal background, green bullish candles and red bearish candles, thin grid lines. Break of Structure: an uptrend of higher highs with a candle breaking above the previous swing high, a dashed horizontal line at the broken high. minimal flat vector infographic illustration, high contrast, glowing neon accents, educational trading poster, no text, no letters, no numbers, no logos",
+    "card-05": "a clean candlestick price chart on a dark navy trading-terminal background, green bullish candles and red bearish candles, thin grid lines. Change of Character: a downtrend that suddenly breaks above its last lower high, colour shifting from red to green at the break point. minimal flat vector infographic illustration, high contrast, glowing neon accents, educational trading poster, no text, no letters, no numbers, no logos",
+    "card-06": "a clean candlestick price chart on a dark navy trading-terminal background, green bullish candles and red bearish candles, thin grid lines. Premium and Discount zones: a price range split in half, upper half shaded red and lower half shaded green, price bouncing in the green half. minimal flat vector infographic illustration, high contrast, glowing neon accents, educational trading poster, no text, no letters, no numbers, no logos",
+    "card-07": "a clean candlestick price chart on a dark navy trading-terminal background, green bullish candles and red bearish candles, thin grid lines. Inducement: a small minor pullback luring traders in before price runs to a deeper glowing zone below. minimal flat vector infographic illustration, high contrast, glowing neon accents, educational trading poster, no text, no letters, no numbers, no logos",
+    "card-08": "a clean candlestick price chart on a dark navy trading-terminal background, green bullish candles and red bearish candles, thin grid lines. Mitigation: price returning into a previously broken bearish zone, the zone fading as it is filled, then continuing higher. minimal flat vector infographic illustration, high contrast, glowing neon accents, educational trading poster, no text, no letters, no numbers, no logos",
+    "card-09": "a clean candlestick price chart on a dark navy trading-terminal background, green bullish candles and red bearish candles, thin grid lines. Stop hunt before a big move: a sharp wick piercing a cluster of glowing stop-loss markers above a high, then a strong drop. minimal flat vector infographic illustration, high contrast, glowing neon accents, educational trading poster, no text, no letters, no numbers, no logos",
+    "card-10": "a clean candlestick price chart on a dark navy trading-terminal background, green bullish candles and red bearish candles, thin grid lines. Options payoff on an SMC setup: a call option hockey-stick payoff curve glowing above a bullish order-block entry on the chart. minimal flat vector infographic illustration, high contrast, glowing neon accents, educational trading poster, no text, no letters, no numbers, no logos"
+  },
+  "cost": {
+    "price_per_hour_usd": 0.75,
+    "fixed_time_s": 180.1,
+    "median_generation_s": 2.772,
+    "fixed_cost_F_usd": 0.0375,
+    "cost_per_asset_c_usd": 0.000577,
+    "cost_per_asset_at_N": {
+      "1": 0.038098,
+      "10": 0.004329,
+      "1000": 0.000615
+    },
+    "actual_run_cost_usd_10_assets": 0.0441
+  },
+  "times_source": "Endpoint console logs, restart of sana-endpoint-2"
+}

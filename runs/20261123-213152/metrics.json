@@ -1,0 +1,52 @@
+{
+  "idea": "A 10-card visual explainer series of Smart Money Concepts (SMC) for options traders",
+  "model": "Efficient-Large-Model/Sana_1600M_1024px_diffusers",
+  "modality": "image",
+  "how": "Endpoint",
+  "gpu": "L40S",
+  "size": "512x512",
+  "steps": 20,
+  "guidance_scale": 4.5,
+  "seed": 7,
+  "started_utc": "2026-11-23T16:01:52.962573+00:00",
+  "startup_s": 130.0,
+  "load_s": 0.0,
+  "create_to_ready_s": 10.7,
+  "latency_s": {
+    "card-01": 6.623,
+    "card-02": 2.459,
+    "card-03": 2.547,
+    "card-04": 2.464,
+    "card-05": 2.305,
+    "card-06": 2.589,
+    "card-07": 2.541,
+    "card-08": 2.731,
+    "card-09": 2.516,
+    "card-10": 2.758
+  },
+  "prompts": {
+    "card-01": "Order Block: the last red candle before a strong bullish move highlighted by a glowing teal rectangle zone, price later returning to tap it. flat vector illustration, dark navy background, neon teal and gold, simple shapes, no text",
+    "card-02": "Fair Value Gap: three candles with an empty imbalance gap between the first and third candle shaded in translucent yellow. flat vector illustration, dark navy background, neon teal and gold, simple shapes, no text",
+    "card-03": "Liquidity Sweep: price spiking just below a row of equal lows marked by small glowing dots, then reversing sharply upward. flat vector illustration, dark navy background, neon teal and gold, simple shapes, no text",
+    "card-04": "Break of Structure: an uptrend of higher highs with a candle breaking above the previous swing high, a dashed horizontal line at the broken high. flat vector illustration, dark navy background, neon teal and gold, simple shapes, no text",
+    "card-05": "Change of Character: a downtrend that suddenly breaks above its last lower high, colour shifting from red to green at the break point. flat vector illustration, dark navy background, neon teal and gold, simple shapes, no text",
+    "card-06": "Premium and Discount zones: a price range split in half, upper half shaded red and lower half shaded green, price bouncing in the green half. flat vector illustration, dark navy background, neon teal and gold, simple shapes, no text",
+    "card-07": "Inducement: a small minor pullback luring traders in before price runs to a deeper glowing zone below. flat vector illustration, dark navy background, neon teal and gold, simple shapes, no text",
+    "card-08": "Mitigation: price returning into a previously broken bearish zone, the zone fading as it is filled, then continuing higher. flat vector illustration, dark navy background, neon teal and gold, simple shapes, no text",
+    "card-09": "Stop hunt before a big move: a sharp wick piercing a cluster of glowing stop-loss markers above a high, then a strong drop. flat vector illustration, dark navy background, neon teal and gold, simple shapes, no text",
+    "card-10": "Options payoff on an SMC setup: a call option hockey-stick payoff curve glowing above a bullish order-block entry on the chart. flat vector illustration, dark navy background, neon teal and gold, simple shapes, no text"
+  },
+  "cost": {
+    "price_per_hour_usd": 0.75,
+    "fixed_time_s": 130.0,
+    "median_generation_s": 2.544,
+    "fixed_cost_F_usd": 0.0271,
+    "cost_per_asset_c_usd": 0.00053,
+    "cost_per_asset_at_N": {
+      "1": 0.027613,
+      "10": 0.003238,
+      "1000": 0.000557
+    },
+    "actual_run_cost_usd_10_assets": 0.0332
+  }
+}
